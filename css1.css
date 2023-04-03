@@ -1,0 +1,114 @@
+body{
+color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;}
+    form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.breadcrumb {
+
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+   
+}
+
+.breadcrumb a{
+    padding: 5px 15px;
+}
+.breadcrumb span {
+    color: white;
+    padding: 5px 0;
+}
+.fullwidth-block {
+    padding: 70px 0;
+}
+
+.contact-details {
+    background: #262936;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.map {
+    height: 220px;
+}
+
+.contact-details .map {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact-details address {
+    padding-left: 30px;
+    position: relative;
+}
+.contact-details a {
+    margin-right: 20px;
+    color: #bfc1c8;
+    padding: 0;
+}
+.contact-details address img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.contact-details a img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.contact-details .contact-info {
+    padding: 20px;
+}
+.fullwidth-block .section-title {
+    font-size: 36px;
+    
+    font-weight: 300;
+    color: white;
+}
+.contact-form .row {
+    margin: 0 -5px;
+}
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+.contact-form input:not([type="submit"]), .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+}
+.text-right{
+    position: relative;
+}
+.text-right input {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+.in:hover{
+    border: 2px solid #009ad8 !important;
+}
+@media (max-width:991px){
+    .col-md-5{
+        width: 100%;
+    }
+    .col-md-6{
+        width: 100%;
+    }
+}
